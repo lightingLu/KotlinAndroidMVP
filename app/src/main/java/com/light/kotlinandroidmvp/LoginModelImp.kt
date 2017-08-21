@@ -7,6 +7,7 @@ import android.util.Log
 
 /**
  * Created by lightlu on 2017/8/20.
+ * ##数据具体实现类，用户名或者密码为空就做相应处理
  */
 class LoginModelImp : LoginModell {
     override fun login(username: String, password: String, listener: OnLoginFinishListener) {
